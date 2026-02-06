@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  mlops-api:
+    image: your-dockerhub-username/mlops-catdog:latest # REPLACE with your actual username
+    ports:
+      - "8000:8000"
+    restart: always
